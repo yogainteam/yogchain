@@ -1,20 +1,20 @@
 [package]
-name = "appchain-barnacle"
+name = "yognode"
 version = "0.9.18"
-description = "A minimal template for octopus appchain."
-authors = ["Octopus Network <hi@oct.network>"]
-homepage = "https://oct.network/"
+description = "A node which joins together to form blockchain network"
+authors = ["Long Dinh <longdt@yogain.io>"]
+homepage = "https://yogain.io/"
 edition = "2021"
 license = "Apache-2.0"
 publish = false
-repository = "https://github.com/octopus-network/barnacle/"
+repository = "https://github.com/yogainteam/yogchain/"
 build = "build.rs"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
 
 [[bin]]
-name = "appchain-barnacle"
+name = "yognode"
 
 [dependencies]
 clap = { version = "3.0", features = ["derive"] }
