@@ -93,10 +93,10 @@ pub fn development_config() -> Result<ChainSpec, String> {
 				// Initial PoA authorities
 				vec![authority_keys_from_seed("Alice")],
 				// Sudo account
-				AccountId::from_str("f24FF3a9CF04c71Dbc94D0b566f7A27B94566cac").unwrap(),
+				AccountId::from_str("238922D9E2644e229c05E9063423bba17dE13450").unwrap(),
 				// Pre-funded accounts
 				Some(
-					vec![AccountId::from_str("f24FF3a9CF04c71Dbc94D0b566f7A27B94566cac").unwrap()],
+					vec![AccountId::from_str("238922D9E2644e229c05E9063423bba17dE13450").unwrap()],
 				),
 				true,
 			)
@@ -135,10 +135,10 @@ pub fn local_testnet_config() -> Result<ChainSpec, String> {
 				// Initial PoA authorities
 				vec![authority_keys_from_seed("Alice"), authority_keys_from_seed("Bob")],
 				// Sudo account
-				AccountId::from_str("f24FF3a9CF04c71Dbc94D0b566f7A27B94566cac").unwrap(),
+				AccountId::from_str("238922D9E2644e229c05E9063423bba17dE13450").unwrap(),
 				// Pre-funded accounts
 				Some(
-					vec![AccountId::from_str("f24FF3a9CF04c71Dbc94D0b566f7A27B94566cac").unwrap()],
+					vec![AccountId::from_str("238922D9E2644e229c05E9063423bba17dE13450").unwrap()],
 				),
 				true,
 			)
